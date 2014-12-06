@@ -1,0 +1,156 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLASS	.\initcom_windows.h	/^CLASS(IClassFactory)$/;"	f
+CLASS	.\initcom_windows.h	/^CLASS(IDispatch)$/;"	f
+CLASS	.\initcom_windows.h	22;"	d
+CLASSID	.\initcom_windows.h	/^typedef GUID*	CLASSID;$/;"	t
+CLSID	.\guid.h	/^typedef GUID CLSID;$/;"	t
+CLSID_NULL	.\guid.h	85;"	d
+DECLARE_INTERFACE	.\guid.h	211;"	d
+DECLARE_INTERFACE	.\guid.h	221;"	d
+DECLARE_INTERFACE_	.\guid.h	212;"	d
+DECLSPEC_SELECTANY	.\guid.h	34;"	d
+DECLSPEC_SELECTANY	.\guid.h	36;"	d
+DEFINE_GUID	.\guid.h	49;"	d
+DEFINE_GUID	.\guid.h	53;"	d
+DEFINE_GUID	.\guid.h	57;"	d
+DEFINE_GUID	.\initcom_windows.h	18;"	d
+DEFINE_OLEGUID	.\guid.h	61;"	d
+Data1	.\guid.h	/^    unsigned long  Data1;$/;"	m	struct:_GUID
+Data1	.\guid.h	/^    unsigned long  Data1;$/;"	m	struct:__anon2
+Data1	.\initcom_windows.h	/^    unsigned long  Data1;$/;"	m	struct:_GUID
+Data2	.\guid.h	/^    unsigned short Data2;$/;"	m	struct:_GUID
+Data2	.\guid.h	/^    unsigned short Data2;$/;"	m	struct:__anon2
+Data2	.\initcom_windows.h	/^    unsigned short Data2;$/;"	m	struct:_GUID
+Data3	.\guid.h	/^    unsigned short Data3;$/;"	m	struct:_GUID
+Data3	.\guid.h	/^    unsigned short Data3;$/;"	m	struct:__anon2
+Data3	.\initcom_windows.h	/^    unsigned short Data3;$/;"	m	struct:_GUID
+Data4	.\guid.h	/^    byte           Data4[ 8 ];$/;"	m	struct:__anon2
+Data4	.\guid.h	/^    unsigned char  Data4[ 8 ];$/;"	m	struct:_GUID
+Data4	.\initcom_windows.h	/^    unsigned char  Data4[8];$/;"	m	struct:_GUID
+DllGetClassObject	.\com_windows.c	/^static HRESULT DllGetClassObject(CLASSID cid,POID pid,void** p)$/;"	f	file:
+DllRegisterServer	.\com_windows.c	/^static HRESULT DllRegisterServer()$/;"	f	file:
+EXTERN_C	.\guid.h	178;"	d
+EXTERN_C	.\guid.h	180;"	d
+EXTERN_C	.\guid.h	42;"	d
+EXTERN_C	.\guid.h	44;"	d
+FAR	.\guid.h	26;"	d
+FAR	.\guid.h	28;"	d
+FMTID	.\guid.h	/^typedef GUID FMTID;$/;"	t
+FMTID_NULL	.\guid.h	89;"	d
+GUID	.\guid.h	/^} GUID;$/;"	t	typeref:struct:_GUID
+GUID	.\guid.h	/^} GUID;$/;"	t	typeref:struct:__anon2
+GUID	.\initcom_windows.h	/^} GUID;$/;"	t	typeref:struct:_GUID
+GUID_DEFINED	.\guid.h	4;"	d
+GoChan	.\_cgo_export.h	/^typedef void *GoChan;$/;"	t
+GoComplex128	.\_cgo_export.h	/^typedef __complex double GoComplex128;$/;"	t
+GoComplex64	.\_cgo_export.h	/^typedef __complex float GoComplex64;$/;"	t
+GoFloat32	.\_cgo_export.h	/^typedef float GoFloat32;$/;"	t
+GoFloat64	.\_cgo_export.h	/^typedef double GoFloat64;$/;"	t
+GoInt	.\_cgo_export.h	/^typedef GoInt32 GoInt;$/;"	t
+GoInt16	.\_cgo_export.h	/^typedef short GoInt16;$/;"	t
+GoInt32	.\_cgo_export.h	/^typedef int GoInt32;$/;"	t
+GoInt64	.\_cgo_export.h	/^typedef long long GoInt64;$/;"	t
+GoInt8	.\_cgo_export.h	/^typedef signed char GoInt8;$/;"	t
+GoInterface	.\_cgo_export.h	/^typedef struct { void *t; void *v; } GoInterface;$/;"	t	typeref:struct:__anon4
+GoMap	.\_cgo_export.h	/^typedef void *GoMap;$/;"	t
+GoSlice	.\_cgo_export.h	/^typedef struct { void *data; GoInt len; GoInt cap; } GoSlice;$/;"	t	typeref:struct:__anon5
+GoString	.\_cgo_export.h	/^typedef struct { char *p; GoInt n; } GoString;$/;"	t	typeref:struct:__anon3
+GoUint	.\_cgo_export.h	/^typedef GoUint32 GoUint;$/;"	t
+GoUint16	.\_cgo_export.h	/^typedef unsigned short GoUint16;$/;"	t
+GoUint32	.\_cgo_export.h	/^typedef unsigned int GoUint32;$/;"	t
+GoUint64	.\_cgo_export.h	/^typedef unsigned long long GoUint64;$/;"	t
+GoUint8	.\_cgo_export.h	/^typedef unsigned char GoUint8;$/;"	t
+GoUintptr	.\_cgo_export.h	/^typedef __SIZE_TYPE__ GoUintptr;$/;"	t
+HRESULT	.\initcom_windows.h	/^typedef GoUint  HRESULT;$/;"	t
+IID	.\guid.h	/^typedef GUID IID;$/;"	t
+IID_NULL	.\guid.h	81;"	d
+IUnknown	.\initcom_windows.h	35;"	d
+IsEqualCLSID	.\guid.h	148;"	d
+IsEqualCLSID	.\guid.h	86;"	d
+IsEqualFMTID	.\guid.h	90;"	d
+IsEqualGUID	.\guid.h	136;"	d
+IsEqualGUID	.\guid.h	141;"	d
+IsEqualGUID	.\guid.h	142;"	d
+IsEqualGUID	.\initcom_windows.h	30;"	d
+IsEqualIID	.\guid.h	147;"	d
+IsEqualIID	.\guid.h	82;"	d
+LPCGUID	.\guid.h	/^typedef const GUID *LPCGUID;$/;"	t
+LPCLSID	.\guid.h	/^typedef CLSID *LPCLSID;$/;"	t
+LPFMTID	.\guid.h	/^typedef FMTID *LPFMTID;$/;"	t
+LPGUID	.\guid.h	/^typedef GUID *LPGUID;$/;"	t
+LPIID	.\guid.h	/^typedef IID *LPIID;$/;"	t
+NewIClassFactory	.\com_windows.c	/^GoUintptr NewIClassFactory(){$/;"	f
+NewIDispatch	.\com_windows.c	/^GoUintptr NewIDispatch(){$/;"	f
+POID	.\initcom_windows.h	/^typedef GUID*	POID;$/;"	t
+PURE	.\guid.h	208;"	d
+PURE	.\guid.h	217;"	d
+REFCLSID	.\guid.h	119;"	d
+REFCLSID	.\guid.h	121;"	d
+REFFMTID	.\guid.h	128;"	d
+REFFMTID	.\guid.h	130;"	d
+REFGUID	.\guid.h	101;"	d
+REFGUID	.\guid.h	103;"	d
+REFIID	.\guid.h	110;"	d
+REFIID	.\guid.h	112;"	d
+STDAPI	.\guid.h	194;"	d
+STDAPICALLTYPE	.\guid.h	186;"	d
+STDAPICALLTYPE	.\guid.h	191;"	d
+STDAPIV	.\guid.h	199;"	d
+STDAPIVCALLTYPE	.\guid.h	187;"	d
+STDAPIVCALLTYPE	.\guid.h	192;"	d
+STDAPIV_	.\guid.h	200;"	d
+STDAPI_	.\guid.h	195;"	d
+STDCALL	.\initcom_windows.h	17;"	d
+STDMETHOD	.\guid.h	206;"	d
+STDMETHOD	.\guid.h	215;"	d
+STDMETHOD	.\initcom_windows.h	32;"	d
+STDMETHODCALLTYPE	.\guid.h	184;"	d
+STDMETHODCALLTYPE	.\guid.h	189;"	d
+STDMETHODIMP	.\guid.h	196;"	d
+STDMETHODIMPV	.\guid.h	201;"	d
+STDMETHODIMPV_	.\guid.h	202;"	d
+STDMETHODIMP_	.\guid.h	197;"	d
+STDMETHODVCALLTYPE	.\guid.h	185;"	d
+STDMETHODVCALLTYPE	.\guid.h	190;"	d
+STDMETHOD_	.\guid.h	207;"	d
+STDMETHOD_	.\guid.h	216;"	d
+STDMETHOD_	.\initcom_windows.h	33;"	d
+THIS	.\guid.h	210;"	d
+THIS	.\guid.h	219;"	d
+THIS	.\initcom_windows.h	28;"	d
+THIS_	.\guid.h	209;"	d
+THIS_	.\guid.h	218;"	d
+UINT	.\initcom_windows.h	/^typedef GoUint  UINT;$/;"	t
+ULONG	.\initcom_windows.h	/^typedef GoUint64 ULONG;$/;"	t
+_BASETYPS_H_	.\guid.h	175;"	d
+_GUID	.\guid.h	/^typedef struct _GUID {$/;"	s
+_GUID	.\initcom_windows.h	/^typedef struct _GUID {$/;"	s
+_GUIDDEF_H_	.\guid.h	64;"	d
+_REFCLSID_DEFINED	.\guid.h	117;"	d
+_REFFMTID_DEFINED	.\guid.h	126;"	d
+_REFGUID_DEFINED	.\guid.h	99;"	d
+_REFIID_DEFINED	.\guid.h	108;"	d
+_SYS_GUID_OPERATOR_EQ_	.\guid.h	152;"	d
+__IID_DEFINED__	.\guid.h	77;"	d
+__LPCGUID_DEFINED__	.\guid.h	72;"	d
+__LPGUID_DEFINED__	.\guid.h	67;"	d
+__MIDL_CONST	.\guid.h	93;"	d
+__MIDL_CONST	.\guid.h	95;"	d
+cap	.\_cgo_export.h	/^typedef struct { void *data; GoInt len; GoInt cap; } GoSlice;$/;"	m	struct:__anon5
+data	.\_cgo_export.h	/^typedef struct { void *data; GoInt len; GoInt cap; } GoSlice;$/;"	m	struct:__anon5
+interface	.\guid.h	205;"	d
+interface	.\guid.h	214;"	d
+isEqGuid	.\com_windows.c	/^int isEqGuid(GoUintptr p0,GoUintptr p1){$/;"	f
+len	.\_cgo_export.h	/^typedef struct { void *data; GoInt len; GoInt cap; } GoSlice;$/;"	m	struct:__anon5
+lpVtbl	.\guid.h	/^                                    const struct iface##Vtbl FAR* lpVtbl; \/$/;"	v	typeref:struct:FAR
+n	.\_cgo_export.h	/^typedef struct { char *p; GoInt n; } GoString;$/;"	m	struct:__anon3
+operator !=	.\guid.h	/^__inline bool operator!=(REFGUID guidOne, REFGUID guidOther)$/;"	f
+operator ==	.\guid.h	/^__inline bool operator==(REFGUID guidOne, REFGUID guidOther)$/;"	f
+p	.\_cgo_export.h	/^typedef struct { char *p; GoInt n; } GoString;$/;"	m	struct:__anon3
+t	.\_cgo_export.h	/^typedef struct { void *t; void *v; } GoInterface;$/;"	m	struct:__anon4
+v	.\_cgo_export.h	/^typedef struct { void *t; void *v; } GoInterface;$/;"	m	struct:__anon4
